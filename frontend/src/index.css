@@ -1,0 +1,103 @@
+.containerNav{
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  background-color: wheat;
+}
+.containerNav ul{
+  display: flex;
+}
+.containerNav ul li{
+  padding: .6rem;
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.contilist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product{
+  width: 400px;
+  border: solid wheat 2px;
+  
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.product button{
+  padding: .5rem 1.6rem;
+ cursor: pointer;
+  font-size: 1.2rem;
+  border-color: hotpink;
+}
+.product p{
+  font-size: 2rem;
+  color: gray;
+}
+img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.link{
+  list-style: none;
+  text-decoration: none;
+  padding: 8px;
+  margin: 8px;
+  font-size: 18px;
+  transition: all .4s;
+  
+}
+.link:hover{
+  color: red;
+}
+
+.formdiv{
+  margin-top: 3rem;
+  margin-right: 4rem;
+  direction: rtl;
+
+}
+
+.divinputlabel {
+   margin: 2rem; 
+}
+.containerNav input{
+  padding: 1rem 3rem;
+}
+.form{
+  background-color: fuchsia;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.form input{
+  margin: 1rem 0;
+}
+.form button{
+  padding: .3rem 1rem;
+  cursor: pointer;
+  color: green;
+}
+
+
+.images{
+  margin: 2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+}
+
